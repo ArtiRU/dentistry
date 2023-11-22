@@ -1,0 +1,257 @@
+.implantation {
+    position: relative;
+}
+
+.implantation__background {
+    background-image: url("/assets/images/implantation_back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 1109px;
+}
+
+.implantation__container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.implantation__title {
+    color: var(--gray-color);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 48px;
+    padding-top: 83px;
+}
+
+.implantation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.implantation__list-item {
+    display: flex;
+    align-items: center;
+    color: var(--implantation-orange);
+    margin-right: 94px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.implantation__list-item::before {
+    display: inline-block;
+    content: '';
+    background-image: url("/assets/images/list_marker.svg");
+    background-size: cover;
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.implantation__list-item:last-child {
+    margin-right: 0;
+}
+
+.implantation__achievements {
+    margin-top: 22px;
+    margin-left: 152px;
+    padding-right: 20px;
+}
+
+.implantation__achievements-row {
+    margin-top: 106px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.achievements__list-item {
+    margin-top: 45px;
+    max-width: 495px;
+}
+
+.achievements__list-item:first-child {
+    margin-top: 0;
+}
+
+.achievements__item-text {
+    color: var(--black-color);
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.achievements__list-item:first-child .achievements__item-text {
+    margin-bottom: 3px;
+}
+
+.achievements__list-item:last-child .achievements__item-text {
+    max-width: 495px;
+}
+
+.achievements__image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.implantation__video {
+    width: 890px;
+    height: 581px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+@media (max-width: 1366px) {
+    .implantation__background {
+        height: 780px;
+    }
+
+    .implantation__container {
+        max-width: 1720px;
+        padding: 0 40px;
+    }
+
+    .implantation__title {
+        font-size: 48px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .implantation__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .implantation__list-item {
+        margin-right: 53px;
+        font-size: 32px;
+    }
+
+    .implantation__list-item::before {
+        width: 27px;
+        height: 25px;
+        margin-right: 14px;
+    }
+
+    .implantation__list-item:last-child {
+        margin-right: 0;
+    }
+
+    .implantation__achievements {
+        margin-top: 0;
+        margin-left: 112px;
+    }
+
+    .implantation__achievements-row {
+        margin-top: 70px;
+    }
+
+
+    .achievements__item-text {
+        font-size: 24px;
+    }
+
+    .achievements__list-item:last-child {
+        max-width: 326px
+    }
+
+
+    .implantation__video {
+        width: 633px;
+        height: 422px;
+    }
+
+    .achievements__list {
+        align-items: center;
+    }
+
+    .achievements__image1 {
+        height: 56px;
+    }
+
+    .achievements__image2 {
+        height: 48px;
+    }
+
+    .achievements__image3 {
+        height: 49px;
+    }
+}
+
+@media (max-width: 360px) {
+    .implantation__background {
+        height: 279px;
+    }
+
+    .implantation__container {
+        max-width: 1848px;
+        margin: 0 auto;
+        padding: 0 28px;
+    }
+
+    .implantation__title {
+        font-size: 18px;
+        padding-top: 24px;
+        padding-bottom: 6px;
+    }
+
+
+    .implantation__list-item {
+        margin-right: 19px;
+        font-size: 12px;
+    }
+
+    .implantation__list-item::before {
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+    }
+
+    .implantation__achievements {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .implantation__achievements-row {
+        justify-content: center;
+        margin-top: 13px;
+    }
+
+    .achievements__list-item {
+        margin-top: 30px;
+    }
+
+    .achievements__list-item:last-child {
+        max-width: 190px
+    }
+
+
+    .achievements__item-text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+    .implantation__video {
+        display: none;
+    }
+
+    .achievements__image1 {
+        height: 36px;
+    }
+
+    .achievements__image2 {
+        height: 31px;
+    }
+
+    .achievements__image3 {
+        height: 32px;
+    }
+}

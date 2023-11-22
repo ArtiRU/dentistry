@@ -1,7 +1,10 @@
 :root {
     --white-color: #FFFFFF;
+    --gray-color: #393939;
+    --black-color: #000000;
 
     --header-gradient-color: linear-gradient(73deg, #FF5700 0%, #FFB43A 40.89%, #FFCC49 99.38%);
     --header-secondary-color: #FF9D58;
-    --header-gray-color: #393939;
+
+    --implantation-orange: #FFB43A;
 }
