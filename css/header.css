@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     font-size: 32px;
-    color: var(--header-gray-color);
+    color: var(--gray-color);
 }
 
 .header__location::before {
@@ -54,7 +54,7 @@
 }
 
 .phone__text {
-    color: var(--header-gray-color);
+    color: var(--gray-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 40px;
